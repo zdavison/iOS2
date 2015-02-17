@@ -37,3 +37,13 @@ Tips
 - For the bounce, you will need to add selectors to the following UIButton events: `UIControlEventTouchDown`,`UIControlEventTouchUpInside`,`UIControlEventTouchUpOutside`
 - To improve the feel of your animations, play with the `easing`.
 
+Useful Code Snippets
+----------------
+
+To create a `UIColor` with RGB values:
+```objc
+#define RGB(r, g, b)                                                           \
+[UIColor colorWithRed : r / 255.0 green : g / 255.0 blue : b / 255.0 alpha : 1]
+#define RGBA(r, g, b, a)                                                       \
+[UIColor colorWithRed : r / 255.0 green : g / 255.0 blue : b / 255.0 alpha : a]
+```
