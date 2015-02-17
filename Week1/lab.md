@@ -8,9 +8,9 @@ The goal of this lab is to replicate the UI and animation(s) below:
 
 ![glow](http://media.giphy.com/media/AxVvkbUFU8TKvxTXQ4/giphy.gif)
 
-![bounce](http://media.giphy.com/media/AxVvjUDlPrj5qw9jiw/giphy.gif)
+![bounce](http://media.giphy.com/media/ytwDCQedWPXWLiHkQM/giphy.gif)
 
-You should focus on the first 'glow' animation to begin with. If you succeed, then try the second 'bounce' animation, which is more difficult.
+You should focus on the first 'glow' animation to begin with. If you succeed, then try the second 'bounce' animation, which is more difficult. 
 
 Pay attention to details! Notice things like the small gap between the glowing ring and the button. Attention to detail is what distinguishes boring apps from great ones. 
 
