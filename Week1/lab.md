@@ -12,7 +12,9 @@ The goal of this lab is to replicate the UI and animation(s) below:
 
 You should focus on the first 'glow' animation to begin with. If you succeed, then try the second 'bounce' animation, which is more difficult.
 
-Pay attention to details! Notice things like the small gap between the glowing ring and the button. Attention to detail is what distinguishes boring apps from great ones.
+Pay attention to details! Notice things like the small gap between the glowing ring and the button. Attention to detail is what distinguishes boring apps from great ones. 
+
+Replicating the exact font is unnecessary, you can use `Helvetica Neue Condensed Black`, it is similar.
 
 Helpful Reading
 ------------
