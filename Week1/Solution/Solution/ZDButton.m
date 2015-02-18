@@ -10,17 +10,13 @@
 
 #define RGB(r, g, b)                                                           \
 [UIColor colorWithRed : r / 255.0 green : g / 255.0 blue : b / 255.0 alpha : 1]
-#define RGBA(r, g, b, a)                                                       \
-[UIColor colorWithRed : r / 255.0 green : g / 255.0 blue : b / 255.0 alpha : a]
+
 
 @implementation ZDButton
 
 - (void)awakeFromNib{
   
   // --- Glow
-  
-  // Turn off our masking so we can draw outside the bounds
-  self.layer.masksToBounds = false;
   
   // Round our corners to half the size of the button in order to appear like a circle
   self.layer.cornerRadius = MAX(self.bounds.size.width/2,self.bounds.size.height/2);
@@ -33,7 +29,7 @@
   CALayer *glowLayer        = [CALayer layer];
   glowLayer.frame           = CGRectInset(self.layer.frame, -10, -10);
   glowLayer.cornerRadius    = MAX(glowLayer.bounds.size.width/2,glowLayer.bounds.size.height/2);
-  glowLayer.backgroundColor = [UIColor greenColor].CGColor;
+  glowLayer.backgroundColor = [UIColor grayColor].CGColor;
   
   // Add our glowing layer as a sublayer of our superview (eg: underneath us)
   // this is not ideal, if we moved this view, we'd have to remember to move the layer as well

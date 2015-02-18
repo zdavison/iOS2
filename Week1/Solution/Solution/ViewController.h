@@ -12,5 +12,7 @@
 
 @property (nonatomic, strong) UIView *myView;
 
+@property (nonatomic, weak) IBOutlet UIButton *secondButton;
+
 @end
 
