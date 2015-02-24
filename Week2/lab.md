@@ -13,6 +13,7 @@ The goal is to create a UITableView with 'swipeable' cells. This is a very commo
 Goals
 ------------
 
+- You should create a `UITableViewCell` that can display a bold title and summary text underneath (2 lines).
 - You should be able to swipe on a `UITableViewCell` and reveal the UI underneath.
 - The UI underneath should have a `delete` button, which you can press to delete the cell from the list.
 
