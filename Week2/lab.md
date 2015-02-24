@@ -20,6 +20,7 @@ Goals
 Bonus
 -----------
 
+- Can you make other cells close their 'drawers' whenever a new cell opens its own?
 - How would we handle adding 'elasticity' to the cell, eg: Allowing the user to swipe it further, but when they release, it bounces back. Can you do this?
 
 Tips
