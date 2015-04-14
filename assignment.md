@@ -8,6 +8,10 @@ Your assignment is to create a working version of Solitaire. The game should be 
 For this assignment, the following rules will be assumed:
 http://www.solitaire-cardgame.com/#rules
 
+Due Date
+--------------------
+15th May 2015
+
 Requirements
 --------------------
 
