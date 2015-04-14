@@ -19,6 +19,7 @@ Hints
 - First focus on simply drawing the arc. Afterwards, try and animate it between values. To animate it, you will need to read up on `needsDisplayForKey:` and `actionForKey:`, and `initWithLayer:`.
 - To draw the arc, you will want to override the `drawInContext:` method of CALayer. 
 - There are many helper functions to help you draw an arc in Core Graphics, have a look at `CGPathAddArc`.
+-  If you have trouble getting your layer to draw (eg: `drawInContext:` does not get called), try calling `setNeedsDisplay` on the layer.
 
 Step by Step 
 ===============
