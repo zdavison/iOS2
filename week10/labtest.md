@@ -9,7 +9,7 @@ You do not need to replicate icon images, they can just be flat colors.
 
 Once you have replicated the homescreen layout, you should implement the app deletion animation seen in the video below:
 
-[video](deletion.mov)
+[video](https://github.com/zdavison/iOS2/blob/master/week10/deletion.mov?raw=true)
 
 The deletion animation works as follows:
 
