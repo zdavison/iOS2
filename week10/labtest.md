@@ -3,9 +3,13 @@ iOS2 Lab Test
 
 The goal of this lab test is to replicate the iPhone home screen below:
 
+![homescreen.jpg]()
+
 You do not need to replicate icon images, they can just be flat colors.
 
 Once you have replicated the homescreen layout, you should implement the app deletion animation seen in the video below:
+
+[video](deletion.mov)
 
 The deletion animation works as follows:
 
