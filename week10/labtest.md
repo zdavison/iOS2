@@ -3,7 +3,7 @@ iOS2 Lab Test
 
 The goal of this lab test is to replicate the iPhone home screen below:
 
-![homescreen.jpg]()
+![](homescreen.jpg)
 
 You do not need to replicate icon images, they can just be flat colors.
 
